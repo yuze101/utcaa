@@ -1,0 +1,44 @@
+@import '../../../stylesheets/variables.scss';
+
+.footer {
+  background-color: #dd3333;
+  color: WHITE;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-size: 15px;
+  text-align: center;
+
+  .footerLogo {
+    max-width: 100%;
+  }
+}
+
+.qrCode {
+  height: 115px;
+  position: relative;
+  padding-top: 10px;
+}
+
+.contactInfo {
+  .contactInfoDetail {
+    .contactEntry {
+      padding-bottom: 10px;
+      .smIcon {
+        height: 22px;
+      }
+    }
+  }
+}
+
+.p1 {
+  font-size: 16px;
+}
+
+.logo {
+  float: left;
+  margin: 0px 25px 25px 0px;
+}
+
+.aboutUsContent {
+  height: 450px;
+}
